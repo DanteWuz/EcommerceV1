@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EcommerceV1</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">--Home--</a></li>
+                <li><a href="#">--Sobre--</a></li>
+                <li><a href="#">--Contato--</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Seja bem vindo ao ecommerce com JS</h1>
+            <p>Encontre aqui o seu produto</p>
+            <button>Compre Agora</button>
+        </section>
+        <section class="products">
+            <h2>Produtos em destaque</h2>
+            <div class="product-grid">
+                <!--Aqui sera inseridos os produtos pelo JS-->
+            </div>
+        </section>
+
+        <section class="cart">
+            <h2>Carrinho de compras</h2>
+            <table>
+                <thread>
+                    <tr>
+                        <th>Protudo</th>
+                        <th>Quantidade</th>
+                        <th>Preço</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    <!--Aqui serao os itens do carrinho pelo JS-->
+                </tbody>
+            </table>
+            <p>Total; <span id="total">R$0.00</span></p>
+            <button id="checkout">Pagar</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; DanteWuz</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
